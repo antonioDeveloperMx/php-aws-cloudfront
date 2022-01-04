@@ -1,0 +1,20 @@
+{
+    "name": "joalm-library/php-aws-cloudfront",
+    "description": "Libreria para implementar y manejar de una forma m\u0000s sencilla el uso de Cloudfront",
+    "type": "library",
+    "require": {
+        "aws/aws-sdk-php": "^3.208"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JoalmLibrary\\PhpAwsCloudfront\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "antonioDeveloperMx",
+            "email": "antoniolopez.developer@gmail.com"
+        }
+    ]
+}

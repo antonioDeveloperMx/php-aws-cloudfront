@@ -1,11 +1,11 @@
 <?php
 
-namespace  App\Http\Services;
+namespace JoalmLibrary\PhpAwsCloudfront;
 use Aws\CloudFront\CloudFrontClient; 
 use Aws\Exception\AwsException;
 
 
-class CloudFrontService
+class PhpAwsCloudfront
 {
     private $cloudFrontClient = null;
 
