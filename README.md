@@ -11,5 +11,5 @@ Libreria para la implementación básica de cloudfront en PHP
 Nota: Probado en versión 7.1 de PHP
 
 ## Uso
-<p>$cloudfrontService = new CloudFrontService();</p>
+<p>$cloudfrontService = new PhpAwsCloudfront();</p>
 <p>$cloudfrontService->createInvalidation($date[0],$images_path,1);</p>
